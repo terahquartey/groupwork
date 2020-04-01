@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:white;
+}
+.tm-header{
+background: pink;
+}
+.tm-container{
+ max-width: 2000px;
+ max-height: 1000px
+ margin: 8px;
+ background: gray;
+ 
+}
+.tm-nav{
+	float:right;
+}
+.logo{
+	background-color:gold;
+	font-size:200%;
+	font-family:courier new;
+	text-align:center;
+	margin:20px;
+	float: left;
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+.tm-header::after{
+	content:"";
+	display: block;
+	clear: both;
+	visibility: initial;
+}
+.tm-nav ul li a{
+	margin-right: 3px; 
+	padding: 8px 10px 8px 25px;
+	text-decoration: none;
+	color: #303030;
+	line-height: 20px
+}
+.tm-nav ul li a::hover{
+	color: #6e68;
+	
+
+}
+
+a:link, a:visited{background-color:yellow;
+ color:cyan;
+ padding:20px 20px;
+ text-align:left;
+ text-decoration:none;
+ display:inline-block;}
+a:hover,a:active{background-color:violet;}
+
+.tm-head{
+	margin-top: 30px;
+	margin-bottom:30px;
+    width:10px;
+	height:5px;
+}
+.tm-heading{
+	font-family:courier new;
+	font-style: italic;
+	font-size:30px;
+	text-decoration:none;
+	text-align: center;
+	color:purple;
+	margin:20px;
+	padding:2px 4px 2px 8px;
+	background-color: none;}
+
+.tm-content{
+	margin-top: 30px;
+	margin-bottom:30px;}
+
+.tm-cont{
+	background: pink;
+	max-height: 1000px;
+	max-width: 2000px;
+	margin: 0px;
+}
+.mySlides {
+	display:none;
+}
+.button{
+	color: white;
+	background-color: grey;
+	border: none;
+	display: inline-block;
+	font-size: 20px;
+}
+.container{
+	margin-top: 150px;
+	margin-bottom: 250px;
+	 font-family: courier new;
+  font-size: 30px;
+}
+.nav{
+	padding: 50px;
+	font-size: 30px;
+	 font-family: courier new;
+}
+
+.fa {
+  padding: 20px;
+  padding-right: 600px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: white
+}
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.na{
+	padding-left: 400px;
+}
